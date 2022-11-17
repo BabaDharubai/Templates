@@ -1,0 +1,27 @@
+server:
+  port: 8083
+  
+spring: 
+  datasource:
+    username: root
+    password: baba
+    url: jdbc:mysql://localhost:3306/projectdb
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    
+
+
+
+
+templates:
+  values:
+    studyCertificate: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editable\\studyCertificate.pdf'
+    tedTalks: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editableFields\\tedTalks.pdf'
+    employeeId: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editableFields\\employeeId.pdf'
+    
+    
+destination: C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\Templates\\flattenPdf\\
