@@ -19,9 +19,9 @@ spring:
 
 templates:
   values:
-    studyCertificate: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editable\\studyCertificate.pdf'
-    tedTalks: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editableFields\\tedTalks.pdf'
-    employeeId: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editableFields\\employeeId.pdf'
+    - studyCertificate: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editable\\studyCertificate.pdf'
+    - tedTalks: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editableFields\\tedTalks.pdf'
+    - employeeId: 'C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\editableFields\\employeeId.pdf'
     
     
 destination: C:\\Users\\BabaFakruddinDharuba\\Desktop\\Project\\Templates\\flattenPdf\\
